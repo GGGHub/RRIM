@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RRIM'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RRIM.'
+  s.summary          = 'an im server and ui'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lsy0812@qq.com/RRIM'
+  s.homepage         = 'https://github.com/GGGHub/RRIM'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lsy0812@qq.com' => 'lsy0812@qq.com' }
-  s.source           = { :git => 'https://github.com/lsy0812@qq.com/RRIM.git', :tag => s.version.to_s }
+  s.author           = { 'GGGHub' => 'lsy0812@qq.com' }
+  s.source           = { :git => '/github.com/GGGHub/RRIM.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
