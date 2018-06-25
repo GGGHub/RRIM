@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		26C2A9F123590473AC7EC2B30B3E1DA6 /* Pods-RRIM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 934F7FF20AB66A4CCDB980F5D742CF5A /* Pods-RRIM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		478D132F63707C71A4888094E0731428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4E4160647F5574F8D20FA01F15A253CE /* IMClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2359AB0E9FD6345BD4E76C10E0761A /* IMClass.m */; };
 		5BE3636E3C78B9FCB0DFDBC9CE856355 /* RRIM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D7718524073028B4A3263E42B8D740 /* RRIM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B3C6C91E4FC727FD255A71C97E2FD4E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 809AE5E5E598176D38E4E0514215EF5B /* ReplaceMe.m */; };
-		835129C2C3C9681F06E7A2967DBC0094 /* IMClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0436DEA407FF247D2175B2D72627F282 /* IMClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A6010120E0CFF9003DB46F /* IMPrivateClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A600FF20E0CFF9003DB46F /* IMPrivateClass.h */; };
+		87A6010220E0CFF9003DB46F /* IMPrivateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A6010020E0CFF9003DB46F /* IMPrivateClass.m */; };
+		87A6010520E0D024003DB46F /* IMHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A6010320E0D024003DB46F /* IMHelp.h */; };
+		87A6010620E0D025003DB46F /* IMHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A6010420E0D024003DB46F /* IMHelp.m */; };
 		D4EB8DB53E9AE254F64BBDC517C73F16 /* RRIM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4D0EEC806AB30E381A5C3AD8BDD5B /* RRIM-dummy.m */; };
 		D9C80C16F34D1CBC5B903CC4CE718052 /* Pods-RRIM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F72E5E83DF46ED0B486D38993BB691 /* Pods-RRIM_Example-dummy.m */; };
 		DC95A4DCC1674E2B95B9D29E9BE18ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,28 +31,33 @@
 
 /* Begin PBXFileReference section */
 		00D7718524073028B4A3263E42B8D740 /* RRIM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRIM-umbrella.h"; sourceTree = "<group>"; };
-		0436DEA407FF247D2175B2D72627F282 /* IMClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMClass.h; path = RRIM/Classes/IMClass.h; sourceTree = "<group>"; };
 		0AF7228B005B0986AE59D2DA0A1FB8E8 /* Pods-RRIM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RRIM_Example.modulemap"; sourceTree = "<group>"; };
 		0D6010AA702EA0C08D37B2AF6B647634 /* Pods-RRIM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRIM_Example.release.xcconfig"; sourceTree = "<group>"; };
-		17CEAF43B8E9409D739F12D4C27729B3 /* RRIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RRIM.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1CBFC3345CA4476EFDDFAC326132159A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		17CEAF43B8E9409D739F12D4C27729B3 /* RRIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RRIM.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1CBFC3345CA4476EFDDFAC326132159A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		293FB65421ECAB5AD0D6EBEFEB7F3F05 /* RRIM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRIM-prefix.pch"; sourceTree = "<group>"; };
 		3669CDF03F4C84977272D7AE9AD1C5B2 /* Pods-RRIM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RRIM_Example-resources.sh"; sourceTree = "<group>"; };
-		5596C1504C8DB4756CF7080C41CA4205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5596C1504C8DB4756CF7080C41CA4205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		65E589AF9C1178A9684BF882B4FC3E66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CD4D0EEC806AB30E381A5C3AD8BDD5B /* RRIM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RRIM-dummy.m"; sourceTree = "<group>"; };
 		73F9D29AD213A241DE67E4B4363B0690 /* Pods-RRIM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRIM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		80526741B2319DDD4EE1919D28D2E405 /* Pods_RRIM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRIM_Example.framework; path = "Pods-RRIM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		809AE5E5E598176D38E4E0514215EF5B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RRIM/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		80526741B2319DDD4EE1919D28D2E405 /* Pods_RRIM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRIM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A600FA20E0CFBF003DB46F /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		87A600FB20E0CFBF003DB46F /* IMClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMClass.h; sourceTree = "<group>"; };
+		87A600FC20E0CFBF003DB46F /* IMClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMClass.m; sourceTree = "<group>"; };
+		87A600FD20E0CFBF003DB46F /* ReplaceMe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		87A600FF20E0CFF9003DB46F /* IMPrivateClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMPrivateClass.h; sourceTree = "<group>"; };
+		87A6010020E0CFF9003DB46F /* IMPrivateClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMPrivateClass.m; sourceTree = "<group>"; };
+		87A6010320E0D024003DB46F /* IMHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMHelp.h; sourceTree = "<group>"; };
+		87A6010420E0D024003DB46F /* IMHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMHelp.m; sourceTree = "<group>"; };
 		934F7FF20AB66A4CCDB980F5D742CF5A /* Pods-RRIM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RRIM_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF0321DCABA1D5774DF6D7B3EEF5A361 /* RRIM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RRIM.modulemap; sourceTree = "<group>"; };
 		AFFAF1EC7450185C9D917AF89F85E0C0 /* Pods-RRIM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RRIM_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B1CB7F427AFD791E4D997DF612EFAF6A /* RRIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RRIM.framework; path = RRIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CB7F427AFD791E4D997DF612EFAF6A /* RRIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEBE6D8AAC715705A1DA3C976535D66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F72E5E83DF46ED0B486D38993BB691 /* Pods-RRIM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RRIM_Example-dummy.m"; sourceTree = "<group>"; };
-		CF2359AB0E9FD6345BD4E76C10E0761A /* IMClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IMClass.m; path = RRIM/Classes/IMClass.m; sourceTree = "<group>"; };
 		DEECEAA81FFE6BD2F944111D767205D7 /* Pods-RRIM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRIM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F1671868F91D4A53D6D1A8CB77F44A76 /* RRIM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RRIM.xcconfig; sourceTree = "<group>"; };
 		FEFA4BE756BE6C09042849B27BD52369 /* Pods-RRIM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RRIM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -89,9 +95,8 @@
 		2BD28447728D310859E17A2B714CB71E /* RRIM */ = {
 			isa = PBXGroup;
 			children = (
-				0436DEA407FF247D2175B2D72627F282 /* IMClass.h */,
-				CF2359AB0E9FD6345BD4E76C10E0761A /* IMClass.m */,
-				809AE5E5E598176D38E4E0514215EF5B /* ReplaceMe.m */,
+				87A600FE20E0CFE6003DB46F /* Private */,
+				87A600F920E0CFBF003DB46F /* Classes */,
 				DFC41EAF369C07E617373005020955B0 /* Pod */,
 				C1EDD6A8FBF74EA78969E943AF11788A /* Support Files */,
 			);
@@ -134,6 +139,30 @@
 				2A0A4594B6805E1EABD6991D0FDECF20 /* Products */,
 				945F362B24BABE4689E559B0099D231C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		87A600F920E0CFBF003DB46F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87A600FA20E0CFBF003DB46F /* .gitkeep */,
+				87A600FB20E0CFBF003DB46F /* IMClass.h */,
+				87A600FC20E0CFBF003DB46F /* IMClass.m */,
+				87A600FD20E0CFBF003DB46F /* ReplaceMe.m */,
+				87A6010320E0D024003DB46F /* IMHelp.h */,
+				87A6010420E0D024003DB46F /* IMHelp.m */,
+			);
+			name = Classes;
+			path = RRIM/Classes;
+			sourceTree = "<group>";
+		};
+		87A600FE20E0CFE6003DB46F /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				87A600FF20E0CFF9003DB46F /* IMPrivateClass.h */,
+				87A6010020E0CFF9003DB46F /* IMPrivateClass.m */,
+			);
+			name = Private;
+			path = RRIM/Private;
 			sourceTree = "<group>";
 		};
 		945F362B24BABE4689E559B0099D231C /* Targets Support Files */ = {
@@ -191,7 +220,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835129C2C3C9681F06E7A2967DBC0094 /* IMClass.h in Headers */,
 				5BE3636E3C78B9FCB0DFDBC9CE856355 /* RRIM-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,7 +228,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A6010520E0D024003DB46F /* IMHelp.h in Headers */,
 				26C2A9F123590473AC7EC2B30B3E1DA6 /* Pods-RRIM_Example-umbrella.h in Headers */,
+				87A6010120E0CFF9003DB46F /* IMPrivateClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4160647F5574F8D20FA01F15A253CE /* IMClass.m in Sources */,
-				7B3C6C91E4FC727FD255A71C97E2FD4E /* ReplaceMe.m in Sources */,
 				D4EB8DB53E9AE254F64BBDC517C73F16 /* RRIM-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A6010220E0CFF9003DB46F /* IMPrivateClass.m in Sources */,
+				87A6010620E0D025003DB46F /* IMHelp.m in Sources */,
 				D9C80C16F34D1CBC5B903CC4CE718052 /* Pods-RRIM_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
