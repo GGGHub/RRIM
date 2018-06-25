@@ -1,0 +1,22 @@
+{
+  "name": "RRIM",
+  "version": "0.1.0",
+  "summary": "A short description of RRIM.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lsy0812@qq.com/RRIM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lsy0812@qq.com": "lsy0812@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lsy0812@qq.com/RRIM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RRIM/Classes/**/*"
+}

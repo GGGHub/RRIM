@@ -7,7 +7,7 @@
 //
 
 #import "RRViewController.h"
-
+#import <RRIM/IMClass.h>
 @interface RRViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    IMClass *im = [[IMClass alloc]init];
+    [im printSelfClass];
+    
 }
 
 - (void)didReceiveMemoryWarning
