@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RRIM_Example' do
+  pod 'RRIM', :path => '../'
+
+  target 'RRIM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
