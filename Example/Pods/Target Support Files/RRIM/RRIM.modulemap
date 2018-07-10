@@ -1,6 +1,0 @@
-framework module RRIM {
-  umbrella header "RRIM-umbrella.h"
-
-  export *
-  module * { export * }
-}
