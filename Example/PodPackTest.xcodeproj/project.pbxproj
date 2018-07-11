@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87217B6620F4E250001C230B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87217B6520F4E250001C230B /* AppDelegate.m */; };
+		87217B6920F4E250001C230B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87217B6820F4E250001C230B /* ViewController.m */; };
+		87217B6C20F4E250001C230B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87217B6A20F4E250001C230B /* Main.storyboard */; };
+		87217B6E20F4E252001C230B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87217B6D20F4E252001C230B /* Assets.xcassets */; };
+		87217B7120F4E252001C230B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87217B6F20F4E252001C230B /* LaunchScreen.storyboard */; };
+		87217B7420F4E252001C230B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87217B7320F4E252001C230B /* main.m */; };
+		87217B7D20F4EA09001C230B /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87217B7B20F4EA09001C230B /* AlipaySDK.bundle */; };
+		87217B8520F4EA6D001C230B /* libUMessage_Sdk_1.5.0a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B8320F4EA6D001C230B /* libUMessage_Sdk_1.5.0a.a */; };
+		87217B8920F4EC64001C230B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B8820F4EC64001C230B /* SystemConfiguration.framework */; };
+		87217B8B20F4EC6D001C230B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B8A20F4EC6D001C230B /* CoreTelephony.framework */; };
+		87217B8D20F4EC77001C230B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B8C20F4EC77001C230B /* libsqlite3.tbd */; };
+		87217B8F20F4EC81001C230B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B8E20F4EC81001C230B /* libz.tbd */; };
+		87217B9120F4EE36001C230B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9020F4EE36001C230B /* QuartzCore.framework */; };
+		87217B9320F4EE43001C230B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9220F4EE43001C230B /* CoreText.framework */; };
+		87217B9520F4EE4D001C230B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9420F4EE4D001C230B /* CoreGraphics.framework */; };
+		87217B9720F4EE58001C230B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9620F4EE58001C230B /* UIKit.framework */; };
+		87217B9920F4EE5F001C230B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9820F4EE5F001C230B /* Foundation.framework */; };
+		87217B9B20F4EE67001C230B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9A20F4EE67001C230B /* CFNetwork.framework */; };
+		87217B9D20F4EE70001C230B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9C20F4EE70001C230B /* CoreMotion.framework */; };
+		87217B9F20F4EEAF001C230B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217B9E20F4EEAF001C230B /* libc++.tbd */; };
+		87217BA120F4F01C001C230B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87217BA020F4F01C001C230B /* AlipaySDK.framework */; };
+		87217BA320F4F193001C230B /* PodPack.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 87217BA220F4F192001C230B /* PodPack.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87217B6120F4E250001C230B /* PodPackTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodPackTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87217B6420F4E250001C230B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87217B6520F4E250001C230B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87217B6720F4E250001C230B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87217B6820F4E250001C230B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87217B6B20F4E250001C230B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87217B6D20F4E252001C230B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87217B7020F4E252001C230B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87217B7220F4E252001C230B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87217B7320F4E252001C230B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87217B7B20F4EA09001C230B /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		87217B8320F4EA6D001C230B /* libUMessage_Sdk_1.5.0a.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMessage_Sdk_1.5.0a.a; sourceTree = "<group>"; };
+		87217B8420F4EA6D001C230B /* UMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMessage.h; sourceTree = "<group>"; };
+		87217B8820F4EC64001C230B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		87217B8A20F4EC6D001C230B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		87217B8C20F4EC77001C230B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		87217B8E20F4EC81001C230B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		87217B9020F4EE36001C230B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87217B9220F4EE43001C230B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		87217B9420F4EE4D001C230B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87217B9620F4EE58001C230B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87217B9820F4EE5F001C230B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87217B9A20F4EE67001C230B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		87217B9C20F4EE70001C230B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		87217B9E20F4EEAF001C230B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		87217BA020F4F01C001C230B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		87217BA220F4F192001C230B /* PodPack.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PodPack.podspec; path = ../PodPack.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87217B5E20F4E250001C230B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87217B9F20F4EEAF001C230B /* libc++.tbd in Frameworks */,
+				87217B9D20F4EE70001C230B /* CoreMotion.framework in Frameworks */,
+				87217B9B20F4EE67001C230B /* CFNetwork.framework in Frameworks */,
+				87217B9920F4EE5F001C230B /* Foundation.framework in Frameworks */,
+				87217B9720F4EE58001C230B /* UIKit.framework in Frameworks */,
+				87217B9520F4EE4D001C230B /* CoreGraphics.framework in Frameworks */,
+				87217B9320F4EE43001C230B /* CoreText.framework in Frameworks */,
+				87217BA120F4F01C001C230B /* AlipaySDK.framework in Frameworks */,
+				87217B9120F4EE36001C230B /* QuartzCore.framework in Frameworks */,
+				87217B8F20F4EC81001C230B /* libz.tbd in Frameworks */,
+				87217B8D20F4EC77001C230B /* libsqlite3.tbd in Frameworks */,
+				87217B8B20F4EC6D001C230B /* CoreTelephony.framework in Frameworks */,
+				87217B8920F4EC64001C230B /* SystemConfiguration.framework in Frameworks */,
+				87217B8520F4EA6D001C230B /* libUMessage_Sdk_1.5.0a.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87217B5820F4E250001C230B = {
+			isa = PBXGroup;
+			children = (
+				87217BA220F4F192001C230B /* PodPack.podspec */,
+				87217B6320F4E250001C230B /* PodPackTest */,
+				87217B6220F4E250001C230B /* Products */,
+				87217B8720F4EC63001C230B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87217B6220F4E250001C230B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87217B6120F4E250001C230B /* PodPackTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87217B6320F4E250001C230B /* PodPackTest */ = {
+			isa = PBXGroup;
+			children = (
+				87217B8220F4EA6D001C230B /* Umeng */,
+				87217B6420F4E250001C230B /* AppDelegate.h */,
+				87217B6520F4E250001C230B /* AppDelegate.m */,
+				87217B8620F4EAB3001C230B /* Classes */,
+				87217B7A20F4EA09001C230B /* AliPay */,
+				87217B6A20F4E250001C230B /* Main.storyboard */,
+				87217B6D20F4E252001C230B /* Assets.xcassets */,
+				87217B6F20F4E252001C230B /* LaunchScreen.storyboard */,
+				87217B7220F4E252001C230B /* Info.plist */,
+				87217B7320F4E252001C230B /* main.m */,
+			);
+			path = PodPackTest;
+			sourceTree = "<group>";
+		};
+		87217B7A20F4EA09001C230B /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				87217BA020F4F01C001C230B /* AlipaySDK.framework */,
+				87217B7B20F4EA09001C230B /* AlipaySDK.bundle */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		87217B8220F4EA6D001C230B /* Umeng */ = {
+			isa = PBXGroup;
+			children = (
+				87217B8320F4EA6D001C230B /* libUMessage_Sdk_1.5.0a.a */,
+				87217B8420F4EA6D001C230B /* UMessage.h */,
+			);
+			path = Umeng;
+			sourceTree = "<group>";
+		};
+		87217B8620F4EAB3001C230B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87217B6720F4E250001C230B /* ViewController.h */,
+				87217B6820F4E250001C230B /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		87217B8720F4EC63001C230B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87217B9E20F4EEAF001C230B /* libc++.tbd */,
+				87217B9C20F4EE70001C230B /* CoreMotion.framework */,
+				87217B9A20F4EE67001C230B /* CFNetwork.framework */,
+				87217B9820F4EE5F001C230B /* Foundation.framework */,
+				87217B9620F4EE58001C230B /* UIKit.framework */,
+				87217B9420F4EE4D001C230B /* CoreGraphics.framework */,
+				87217B9220F4EE43001C230B /* CoreText.framework */,
+				87217B9020F4EE36001C230B /* QuartzCore.framework */,
+				87217B8E20F4EC81001C230B /* libz.tbd */,
+				87217B8C20F4EC77001C230B /* libsqlite3.tbd */,
+				87217B8A20F4EC6D001C230B /* CoreTelephony.framework */,
+				87217B8820F4EC64001C230B /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87217B6020F4E250001C230B /* PodPackTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87217B7720F4E252001C230B /* Build configuration list for PBXNativeTarget "PodPackTest" */;
+			buildPhases = (
+				87217B5D20F4E250001C230B /* Sources */,
+				87217B5E20F4E250001C230B /* Frameworks */,
+				87217B5F20F4E250001C230B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodPackTest;
+			productName = PodPackTest;
+			productReference = 87217B6120F4E250001C230B /* PodPackTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87217B5920F4E250001C230B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = renrui;
+				TargetAttributes = {
+					87217B6020F4E250001C230B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 87217B5C20F4E250001C230B /* Build configuration list for PBXProject "PodPackTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87217B5820F4E250001C230B;
+			productRefGroup = 87217B6220F4E250001C230B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87217B6020F4E250001C230B /* PodPackTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87217B5F20F4E250001C230B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87217B7120F4E252001C230B /* LaunchScreen.storyboard in Resources */,
+				87217B6E20F4E252001C230B /* Assets.xcassets in Resources */,
+				87217B7D20F4EA09001C230B /* AlipaySDK.bundle in Resources */,
+				87217BA320F4F193001C230B /* PodPack.podspec in Resources */,
+				87217B6C20F4E250001C230B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87217B5D20F4E250001C230B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87217B6920F4E250001C230B /* ViewController.m in Sources */,
+				87217B7420F4E252001C230B /* main.m in Sources */,
+				87217B6620F4E250001C230B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87217B6A20F4E250001C230B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87217B6B20F4E250001C230B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87217B6F20F4E252001C230B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87217B7020F4E252001C230B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87217B7520F4E252001C230B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87217B7620F4E252001C230B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87217B7820F4E252001C230B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A88V6M8F5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodPackTest/AliPay",
+				);
+				INFOPLIST_FILE = PodPackTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodPackTest",
+					"$(PROJECT_DIR)/PodPackTest/Umeng",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renrui.PodPackTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87217B7920F4E252001C230B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A88V6M8F5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodPackTest/AliPay",
+				);
+				INFOPLIST_FILE = PodPackTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodPackTest",
+					"$(PROJECT_DIR)/PodPackTest/Umeng",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renrui.PodPackTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87217B5C20F4E250001C230B /* Build configuration list for PBXProject "PodPackTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87217B7520F4E252001C230B /* Debug */,
+				87217B7620F4E252001C230B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87217B7720F4E252001C230B /* Build configuration list for PBXNativeTarget "PodPackTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87217B7820F4E252001C230B /* Debug */,
+				87217B7920F4E252001C230B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87217B5920F4E250001C230B /* Project object */;
+}
